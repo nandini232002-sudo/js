@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0
-</head>
-<body>
-    <h5>HELLO WORLD!!</H5>
-</body>
-</html>
+// Primitive
+let num = 10, str = "Hi", bool = true;
+
+// Non-Primitive
+let obj = {x:1}, arr = [1,2,3], fun = ()=>"Hello";
+
+console.log(num, str, bool, obj, arr, fun());
